@@ -1,0 +1,28 @@
+.App {
+  background-image: url("https://zupimages.net/up/18/40/oiwi.jpg");
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+.App-Pokemon {
+
+  width: 100vw;
+  height: 99vh;
+}
+
+
+
+.rectangle {
+  width: 24vw;
+  height: 31.2vh;
+  position: relative;
+  bottom: 94.7vh;
+  right: -35.1vw;
+  background: blue;
+  margin: 10px auto;
+ }
+
+
+
