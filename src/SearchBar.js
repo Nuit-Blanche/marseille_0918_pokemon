@@ -1,4 +1,5 @@
 import React, { Component,} from 'react'
+<<<<<<< HEAD
 import {AutoComplete} from 'primereact/autocomplete';
 import { Navbar, FormGroup, FormControl, Button } from 'react-bootstrap';
 import './App.css';
@@ -46,6 +47,26 @@ class SearchBar extends Component {
             size={30} placeholder="Recherche Pokemon" minLength={2} onChange={(e) => this.setValues(e)} 
           />
         </FormGroup>
+=======
+import { Navbar, FormGroup, FormControl, Button } from 'react-bootstrap';
+import './App.css';
+
+ class SearchBar extends Component {
+  render() {
+    return (
+      <div className="divflex">
+
+               <FormGroup>
+                <FormControl 
+                  type="text" 
+                  placeholder="Recherche Pokémon"
+                  onChange={(e) => this.props.getSearch(e.target.value)}
+                />
+              </FormGroup>{' '}
+              <Button 
+              onClick={() => this.props.runRequest()}
+              type="submit">Search</Button>
+>>>>>>> 24e7b1da440d611b648e16b6e1234a283020280d
       </div>
     )
   }

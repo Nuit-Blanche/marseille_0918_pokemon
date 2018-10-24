@@ -21,8 +21,79 @@ img {
   position: absolute;
 }
 
+<<<<<<< HEAD
 .premier {
   margin-right: 215px;
+=======
+.divflex{
+  display: flex;
+  justify-content: center;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  height: 25px;
+}
+.form-group {
+  margin-bottom: 1rem;
+  width: 270px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ffc107 !important;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ffc107 !important;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-default {
+  color: #231582 !important;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  visibility: hidden;
+}
+
+body{
+  background-image: url("http://image.noelshack.com/fichiers/2016/22/1464877020-1464876038841.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+h3{
+  font-size: 25px;
+  color: white;
+  font-weight: bold; 
+}
+.title{
+  height:150px;
+  /* margin-left: 33%;
+  margin-top: 50px; */
+  margin-bottom: 50px;
+}
+.spacebetween{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+>>>>>>> 24e7b1da440d611b648e16b6e1234a283020280d
   }
   
 .deuxieme {
