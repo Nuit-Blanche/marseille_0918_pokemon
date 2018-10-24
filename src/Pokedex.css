@@ -6,23 +6,18 @@
 
 
 
-.App-Pokemon {
 
-  width: 100vw;
-  height: 99vh;
+
+
+@media screen and (max-width: 680px) {
+  .Pokedex {
+    background-image: url("http://image.noelshack.com/fichiers/2018/43/3/1540367350-pokehaut.png");
+    background-image: url("http://image.noelshack.com/fichiers/2018/43/3/1540367356-pokebas.png");
+}
 }
 
-
-
-.rectangle {
-  width: 24vw;
-  height: 31.2vh;
-  position: relative;
-  bottom: 94.7vh;
-  right: -35.1vw;
-  background: blue;
-  margin: 10px auto;
- }
-
-
-
+@media screen and (min-width: 681px) {
+  .Pokedex {
+    background-image: url("https://orig00.deviantart.net/95ef/f/2016/311/0/f/pokemon_twitch_theme_a_2a_by_masterq2-danm4kn.gif");
+  }
+}

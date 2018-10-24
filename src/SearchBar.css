@@ -1,0 +1,14 @@
+.p-inputtext{
+    border-color: rgb(226, 43, 43) !important;
+    border: 20px !important;
+}
+.p-autocomplete-input{
+    border-color: rgb(226, 43, 43) !important;
+    border: 20px !important;
+}
+
+
+.p-autocomplete-panel{
+    border-color: rgba(51, 255, 0, 0.39) !important;
+
+}
